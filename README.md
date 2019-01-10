@@ -20,11 +20,8 @@ Official website [here](https://www.npmjs.com/get-npm).
 
 **Start Webpack on Development Mode**
 ```npm start```
->The application will be running on http://localhost:8080.
+>The application will be running on http://localhost:8080 and it's automatically watched by webpack-dev-server.
 >You can change this default port on **webpack.config.js** file (inside the **devServer** section).
-
-**Watch Webpack**
-```npm run watch```
 
 **Build Webpack on Production Mode**
 ```npm run build```

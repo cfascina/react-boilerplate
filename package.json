@@ -5,8 +5,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "kill": "TASKKILL /F /IM node.exe",
-    "start": "webpack-dev-server --config ./webpack.config.js",
-    "watch": "webpack --watch"
+    "start": "webpack-dev-server --config ./webpack.config.js"
   },
   "author": "TAGCOM",
   "license": "ISC",
