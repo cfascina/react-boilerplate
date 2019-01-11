@@ -5,3 +5,18 @@ html,
 body {
   background-color: $gray;
 }
+
+nav {
+  margin-bottom: 1rem;
+}
+
+.jumbotron {
+  margin: 0 1rem;
+  padding: 2rem;
+
+  &.about {
+    .hello {
+      font-weight: 700;
+    }
+  }
+}

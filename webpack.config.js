@@ -62,12 +62,27 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      applicationStyles: path.resolve(__dirname, 'src/assets/scss/app.scss')
+      // Styles
+      ApplicationStyles: path.resolve(__dirname, 'src/assets/scss/app.scss'),
+
+      // Scripts
+      jQueryLog: path.resolve(__dirname, 'src/assets/js/jquery.log.js'),
+
+      // Commom Components
+      Nav: path.resolve(__dirname, 'src/components/commons/Nav.jsx'),
+
+      // Pages and its Components
+      About: path.resolve(__dirname, 'src/components/pages/about/About.jsx'),
+      AboutDesc: path.resolve(__dirname, 'src/components/pages/about/components/AboutDesc.jsx'),
+      Home: path.resolve(__dirname, 'src/components/pages/home/Home.jsx'),
+      HomeDesc: path.resolve(__dirname, 'src/components/pages/home/components/HomeDesc.jsx'),
+      NotFound: path.resolve(__dirname, 'src/components/pages/not-found/NotFound.jsx'),
     }
   },
   devServer: {
     compress: true,
     contentBase: './dist',
+    historyApiFallback: true,
     port: 8080,
     stats: 'errors-only'
   },
