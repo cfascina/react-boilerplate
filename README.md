@@ -19,7 +19,7 @@ Official website [here](https://www.npmjs.com/get-npm).
 >Running this command you will kill all Node.js processes and after that whe Webpack can be initialized again.
 
 **Start Webpack on Development Mode**
-```npm start```
+```npm run dev```
 >The application will be running on http://localhost:8080 and it's automatically watched by webpack-dev-server.
 >You can change this default port on **webpack.config.js** file (inside the **devServer** section).
 
