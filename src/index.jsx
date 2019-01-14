@@ -7,8 +7,9 @@ import {BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 require('ApplicationStyles');
 
 // Components
-var Home = require('Home');
 var About = require('About');
+var Axios = require('Axios');
+var Home = require('Home');
 var NotFound = require('NotFound');
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/axios" component={Axios} />
       <Route path='*' component={NotFound} />
     </Switch>
   </BrowserRouter>,

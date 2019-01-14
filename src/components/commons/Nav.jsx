@@ -18,6 +18,9 @@ class Nav extends Component {
             <li className="nav-item">
               <Link to="/about" className="nav-link">About</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/axios" className="nav-link">Axios</Link>
+            </li>
           </ul>
         </div>
       </nav>

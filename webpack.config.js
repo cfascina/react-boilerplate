@@ -65,6 +65,9 @@ module.exports = {
       // Styles
       ApplicationStyles: path.resolve(__dirname, 'src/assets/scss/app.scss'),
 
+      // API
+      AxiosAPI: path.resolve(__dirname, 'src/api/AxiosAPI.jsx'),
+
       // Scripts
       jQueryLog: path.resolve(__dirname, 'src/assets/js/jquery.log.js'),
 
@@ -74,6 +77,8 @@ module.exports = {
       // Pages and its Components
       About: path.resolve(__dirname, 'src/components/pages/about/About.jsx'),
       AboutDesc: path.resolve(__dirname, 'src/components/pages/about/components/AboutDesc.jsx'),
+      Axios: path.resolve(__dirname, 'src/components/pages/axios/Axios.jsx'),
+      AxiosDesc: path.resolve(__dirname, 'src/components/pages/axios/components/AxiosDesc.jsx'),
       Home: path.resolve(__dirname, 'src/components/pages/home/Home.jsx'),
       HomeDesc: path.resolve(__dirname, 'src/components/pages/home/components/HomeDesc.jsx'),
       NotFound: path.resolve(__dirname, 'src/components/pages/not-found/NotFound.jsx'),
